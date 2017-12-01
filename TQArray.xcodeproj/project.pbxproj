@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B678BD81FC947AB002FA47C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B678BD71FC947AB002FA47C /* main.m */; };
+		3B678BD81FC947AB002FA47C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B678BD71FC947AB002FA47C /* main.c */; };
+		3B678BE01FC947F5002FA47C /* TQArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B678BDF1FC947F5002FA47C /* TQArray.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		3B678BD41FC947AB002FA47C /* TQArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TQArray; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B678BD71FC947AB002FA47C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B678BD71FC947AB002FA47C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3B678BDE1FC947F5002FA47C /* TQArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TQArray.h; sourceTree = "<group>"; };
+		3B678BDF1FC947F5002FA47C /* TQArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TQArray.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		3B678BD61FC947AB002FA47C /* TQArray */ = {
 			isa = PBXGroup;
 			children = (
-				3B678BD71FC947AB002FA47C /* main.m */,
+				3B678BD71FC947AB002FA47C /* main.c */,
+				3B678BDE1FC947F5002FA47C /* TQArray.h */,
+				3B678BDF1FC947F5002FA47C /* TQArray.c */,
 			);
 			path = TQArray;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B678BD81FC947AB002FA47C /* main.m in Sources */,
+				3B678BE01FC947F5002FA47C /* TQArray.c in Sources */,
+				3B678BD81FC947AB002FA47C /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
